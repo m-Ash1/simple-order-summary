@@ -27,8 +27,9 @@ Users should be able to:
 ### Screenshot
 
 ![desktop view](./screenshots/desktop-screenshot.PNG)
-![mobile view](./screenshots/mobile-screenshot.PNG)
-
+<p align="center">
+  <img src="./screenshots/mobile-screenshot.PNG">
+</p>
 
 ### Built with
 

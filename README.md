@@ -27,6 +27,7 @@ Users should be able to:
 ### Screenshot
 
 ![desktop view](./screenshots/desktop-screenshot.PNG)
+![mobile view](./screenshots/mobile-screenshot.PNG)
 
 
 ### Built with

@@ -134,8 +134,43 @@ body{
 .attribution {
   font-size: 11px;
   text-align: center;
+  display: none;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
  
+
+@media (max-width:375px){
+    body{
+        background-image: url(../images/pattern-background-mobile.svg);
+    }
+    .container{
+        width: 320px;
+        height: 550px;
+    }
+    .image {
+        height: 156.44px;
+    }
+    .image img{
+        width: 320px;
+    }
+
+    .main-summary{
+        font-size: 90%;
+        height: 150px;
+    }
+    .main-summary h1{
+        font-size: 22px;
+    }
+    .plan {
+        padding: 15px 25px;
+    }
+    .middle {
+        width: 120px;
+    }
+    .button {
+        height: 85px;
+        padding: 10px 25px;
+    }
+}

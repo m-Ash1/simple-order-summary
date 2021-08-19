@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+    margin: 0;
+    background-image: url('../images/pattern-background-desktop.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    display: grid;
+    place-content: center;
+    height: calc(100vh - 16px);
+}
+
+.container{
+    background-color: white;
+    width: 450px;
+    height: 700px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 120px -90px rgb(0 0 0);
+    -moz-box-shadow: 0px 0px 120px -90px rgb(0 0 0);
+    box-shadow: 0px 0px 120px -90px rgb(0 0 0);
+}
+.image{
+    height: 220px;
+}
+.image img{
+    border-top-right-radius:  20px;
+    border-top-left-radius:  20px;
+}
+
+.main-summary{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
+.centered-summary{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.centered-summary h1{
+    color:  hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 27px;
+    margin: 45px 0 0px 0;
+}
+.centered-summary p{
+    line-height:25px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan{
+    height: 120px;
+    display: flex;
+    padding: 15px 50px;
+}
+
+.blue-plan{
+    width: 100%;
+    background: hsl(225, 100%, 98%);
+    display: flex;
+    padding: 20px 5px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    width: 160px; 
+    font-weight: 900;
+    color:  hsl(223, 47%, 23%);
+}
+.middle span{
+    margin-top: 5px;
+    font-weight: 100;
+    color: hsl(224, 23%, 55%);
+}
+
+.change{
+    padding-top: 12px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.change a{
+    color: hsl(228, 45%, 44%);
+}
+.change a:hover{
+    color: #766CF1;
+    text-decoration: none;
+}
+
+.button{
+    height: 100px;
+    padding: 20px 50px;
+}
+
+.main-btn{
+    background-color: hsl(245, 75%, 52%);
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    -webkit-box-shadow: rgb(42 33 133 / 71%) 0px 10px 30px -8px;
+    -moz-box-shadow: rgb(42 33 133 / 71%) 0px 10px 30px -8px;
+    box-shadow: rgb(42 33 133 / 71%) 0px 10px 30px -8px;
+}
+.main-btn:hover{
+    cursor: pointer;
+    background-color: #766CF1;
+}
+
+.cancel{
+    text-align: center;
+}
+.cancel a{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+}
+.cancel a:hover{
+    color:hsl(223, 47%, 23%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+ 

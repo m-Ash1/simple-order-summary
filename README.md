@@ -7,6 +7,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
@@ -25,9 +26,11 @@ Users should be able to:
 ### Screenshot
 
 ![desktop view](./screenshots/desktop-screenshot.PNG)
-<p align="center">
+<p text-align="center">
   <img src="./screenshots/mobile-screenshot.PNG">
 </p>
+
+## My process
 
 ### Built with
 
